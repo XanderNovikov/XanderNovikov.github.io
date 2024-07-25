@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="main">
+        <img src="./images/logo.png" alt="Logo" id="logo" width="70">
+        <h1>Alternative Architecture</h1>
+        <nav>
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="topnav">
+        <a href="#main" class="active">Main </a>
+        <div id="myLinks">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="#footer">Footer</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <main>
+        <section>
+            <h2>About</h2>
+            <div class="container">
+                <div>
+                    <img src="images/nov4.png" alt="Photo" id="imgabout">
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellendus ipsa quod saepe accusantium excepturi! Omnis odit, et harum sit error dolorum, nobis, eos voluptas unde eveniet assumenda quia sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus qui eligendi repellendus magni doloremque cupiditate?</p>
+                </div>
+            </div>
+        <hr class="solid">
+        </section>
+        <h2>Portfolio</h2>
+        <div id="portfolio">
+                <div class="item">
+                    <h3>Shining Rock</h3>
+                    <img src="images/nov1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td>Superficie</td>
+                            <td>350 mètres carrés</td>
+                        </tr>
+                        <tr>
+                            <td>Nombre d'étages</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Locaux</td>
+                            <td>4 chambres, cuisine, salon,
+                                2 dressing, garage, 4 salles de bains,
+                                hall, garde-manger, chaufferie, media-salon</td>
+                        </tr>
+                        <tr>
+                            <td>Solutions techniques</td>
+                            <td>Fondation et plafond interétages en béton monolithique,
+                                murs en blocs de céramique</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td>Maison dans un style moderne avec une décoration extérieure en panneaux de particules de ciment,
+                                panneaux de fibrociment, métal, mélèze teinté et grès cérame</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="item">
+                    <h3>White Wings</h3>
+                    <img src="images/white1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td>Superficie</td>
+                            <td>390 mètres carrés</td>
+                        </tr>
+                        <tr>
+                            <td>Nombre d'étages</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Locaux</td>
+                            <td>4 chambres, cuisine, salon, salle à manger,
+                                dressing, garage, 4 salles de bains,
+                                hall, garde-manger, chaufferie</td>
+                        </tr>
+                        <tr>
+                            <td>Solutions techniques</td>
+                            <td>Fondation et plafond interétages en béton monolithique,
+                                murs en blocs de céramique</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td>Maison dans un style moderne avec une décoration extérieure en panneaux de particules de ciment,
+                                panneaux de fibrociment, métal, mélèze teinté et grès cérame</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="item">
+                    <h3>Monolith</h3>
+                    <img src="images/wood1.jpg" alt="">
+                    <table>
+                        <tr>
+                            <td>Superficie</td>
+                            <td>280 mètres carrés</td>
+                        </tr>
+                        <tr>
+                            <td>Nombre d'étages</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Locaux</td>
+                            <td>4 chambres, cuisine, salon, salle à manger,
+                                2 dressing, 4 salles de bains, hall, garde-manger, 
+                                chaufferie, media-salon, sauna</td>
+                        </tr>
+                        <tr>
+                            <td>Solutions techniques</td>
+                            <td>Fondation et plafond interétages en béton monolithique,
+                                murs en blocs de céramique</td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td>Maison dans un style moderne avec une décoration extérieure en panneaux de particules de ciment,
+                                panneaux de fibrociment, métal, mélèze teinté et grès cérame</td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+        <hr class="solid">
+        <h2>Contact us</h2>
+        <div id="contact">
+            <fieldset>
+            <form action="https://google.com" method="post">
+                <input type="text" placeholder="Jean Dubois" id="name" name="name"><label for="name">Name</label><br>
+                <input type="email" placeholder="some@mail.com" id="mail" name="mail"><label for="mail">E-mail</label><br>
+                <textarea name="message" id="message" placeholder="Some text"></textarea><br>
+                <input type="submit" name="submit" id="submit" value="Submit">
+                <input type="reset" name="reset" id="reset" value="Reset">
+            </form>
+        </fieldset>
+    </div>
+        <footer id="footer">
+            <h2>Alternative Architectire Ltd.</h2>
+        <p>© All rights reserved</p>
+        <ul>
+            <li><a href="https://www.facebook.com/"><img src="images/png-transparent-computer-icons-facebook-blog-facebook-logo-desktop-wallpaper-facebook-icon-thumbnail.png" alt="Logo Facebook" height="30"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="images/png-clipart-computer-icons-logo-instagram-logo-miscellaneous-logo.png" alt="Logo Instagram" height="30"></a></li>
+            <li><a href="https://twitter.com/"><img src="images/X-Logo.png" alt="Logo X" height="30"></a></li>
+            <li><a href="https://telegram.org/"><img src="images/images.png" alt="Logo Telegram" height="30"></a></li>
+        </ul>
+        </footer>
+    </main>
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</html>
